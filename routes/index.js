@@ -72,11 +72,11 @@ router.get("/sessions/:sessionId/deactivate", controller.deactivateSession);
 /**
  * @swagger
  *
- * /sessions:
+ * /sessions/{sessionId}/remove-voter:
  *  post:
  *    tags:
  *    - name: Session
- *    summary: Create Session
+ *    summary: Remove Voter
  *    parameters:
  *     - in: path
  *       name: sessionId
@@ -103,7 +103,7 @@ router.post(
 /**
  * @swagger
  *
- * /story:
+ * /story/{storyid}/finish:
  *  post:
  *    tags:
  *    - name: Story
@@ -131,7 +131,7 @@ router.post("/story/:storyid/finish", controller.finalizeStory);
 /**
  * @swagger
  *
- * /story:
+ * /story/{storyid}/add-vote:
  *  post:
  *    tags:
  *    - name: Story
