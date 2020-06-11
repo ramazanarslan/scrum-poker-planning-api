@@ -1,7 +1,7 @@
 const router = require("express").Router();
 const swaggerRouter = require("../config/swaggerSetup");
 const controller = require("../controller");
-router.use("/", swaggerRouter); //API DOCUMENTATION
+router.use("/api-docs", swaggerRouter); //API DOCUMENTATION
 
 /**
  * @swagger
