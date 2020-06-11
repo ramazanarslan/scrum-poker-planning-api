@@ -1,0 +1,32 @@
+{
+  "name": "scrum-poker-planning-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramazanarslan/scrum-poker-planning-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramazanarslan/scrum-poker-planning-api/issues"
+  },
+  "homepage": "https://github.com/ramazanarslan/scrum-poker-planning-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "moment": "^2.26.0",
+    "mongoose": "^5.6.13",
+    "mongoose-unique-validator": "^2.0.3",
+    "morgan": "^1.10.0",
+    "swagger-jsdoc": "^3.4.0",
+    "swagger-ui-express": "^4.1.2",
+    "validator": "^11.1.0"
+  }
+}
