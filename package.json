@@ -28,6 +28,6 @@
     "morgan": "^1.10.0",
     "swagger-jsdoc": "^3.4.0",
     "swagger-ui-express": "^4.1.2",
-    "validator": "^11.1.0"
+    "validator": "^13.7.0"
   }
 }
